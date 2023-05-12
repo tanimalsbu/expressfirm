@@ -1,0 +1,53 @@
+.body {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  img {
+    height: 50px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav li:first-child {
+    margin-left: 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: #f00;
+  }
+
+.demo {
+border: 1px solid #C0C0C0;
+border-collapse: collapse;
+padding: 5px;
+}
+
+.demo th {
+border: 1px solid #C0C0C0;
+padding: 5px;
+background: #F0F0F0;
+}
+
+.demo td {
+border: 1px solid #C0C0C0;
+padding: 5px;
+}

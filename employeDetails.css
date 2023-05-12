@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', serif;
+}
+
+.demo {
+    width: 100%;
+    border:1px solid #000000;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:1px solid #000000;
+    padding:5px;
+    background:#F0F0F0;
+}
+.demo td {
+    border:1px solid #000000;
+    padding:5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  img {
+    height: 50px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav li:first-child {
+    margin-left: 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: #f00;
+  }
+  
+
+.details-header{
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.employee-img{
+    height: 100px;
+}
+
+.employee-details{
+    margin-left: 20px;
+    color: #F0F0F0;
+    text-align: center;
+}
+
+.saved-records{
+    margin-bottom: 30px;
+}
+
+.table-section{
+    background-color:lavenderblush;
+}
+
+.btn-revenue{
+    width: 180px;
+    height: 40px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 5px;
+}
